@@ -37,7 +37,7 @@ common-js:
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500|Roboto+Mono|Roboto+Condensed:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel ="stylesheet">
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/main.css") %>">
     <link rel="canonical" href="http://www.craftingsoftware.com"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"></script> 
@@ -49,7 +49,8 @@ common-js:
   <body>
 
         <div class="navBar" id="navBar">
-      <img class="navImg" src="<%= static_path(@conn, "/img/header_1366px.svg") %>" id="navImg">
+       <img src="<%= static_path(@conn, "/img/header_1366px.svg") %>" class="proccess-content-img" id="navImg">    
+          
       <a href="<%=page_path(@conn, :index)%>"> <img class="navLogo" src="<%= static_path(@conn, "/images/logoCS.svg") %>" id="navLogo"> </a>
       <div class="navItems" id="navItems">
         <a href="/" data-pjax id="navItem1" onClick="App.highlightNavigationItems(href)">About</a>
