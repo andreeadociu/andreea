@@ -19,105 +19,13 @@ common-js:
   
   
     <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Digital product design and development in the heart of Transylvania. We are a small but steadily expanding team of professionals with extensive experience, fueled by curiosity and itching to solve the most challenging, technological problems.">
-    <meta name="author" content="Crafting Software">
 
-    <meta property="og:title" content="Crafting Software" />
-    <meta property="og:image" content="https://craftingsoftware.com/images/Facebook.png" />
-    <meta property="og:image:secure_url" content="https://craftingsoftware.com/images/Facebook.png" />
-    <meta property="og:image:alt" content="This image is the logo of our company" />
-
-    <meta name="twitter:image" content="https://craftingsoftware.com/images/Twitter.png" />
-    <meta name="twitter:image:alt" content="This image is the logo of our company" />
-
-    <title>Crafting Software Innovation</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500|Roboto+Mono|Roboto+Condensed:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel ="stylesheet">
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/main.css") %>">
-    <link rel="canonical" href="http://www.craftingsoftware.com"/>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.0.1/iframeResizer.min.js"></script>
-    <script src='<%= static_path(@conn, "/js/app.js") %>'></script>
-    <link rel="shortcut icon" type="image/png" href="images/favicon_16x16.png"/>
   </head>
 
   <body>
 
-        <div class="navBar" id="navBar">
-       <img src="<%= static_path(@conn, "/img/header_1366px.svg") %>" class="proccess-content-img" id="navImg">    
-          
-      <a href="<%=page_path(@conn, :index)%>"> <img class="navLogo" src="<%= static_path(@conn, "/images/logoCS.svg") %>" id="navLogo"> </a>
-      <div class="navItems" id="navItems">
-        <a href="/" data-pjax id="navItem1" onClick="https://craftingsoftware.com/">About</a>
-        <a href="/team" data-pjax id="navItem2" onClick="https://localhost:4000/team">Team</a>
-        <a href="/career" data-pjax id="navItem3" onClick="localhost:4000/career">Career</a>
-        <a href="/blog" data-pjax id="navItem5" onClick="localhost:4000/blog">Blog</a>
-        <a href="/contact" data-pjax id="navItem4" onClick="localhost:4000/contact">Contact</a>
-      </div>
-      <div class="navMobileMenu" onclick="App.openNavMobileItems()" id="navMobileMenu">
-         <img class='icon' id="navMobileMenuImg" src="<%= static_path(@conn, "/images/menuIcon.svg") %>" style="margin: 0 auto 0 auto">
-      </div>
-
-    </div>
-
-    <!-- <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-    <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p> -->
-
-    <main role="main">
-    <div id="pjax-container">
-      <%= render @view_module, @view_template, assigns %>
-    </div>
-    </main>
-    <div class='footer'>
-      <div style="background-color: rgba(0,0,0, .03)" >
-      <div class='footerContent' id='footerContent'>
-        <div class='address'>
-          <span>Central Park Residence, 68 Plopilor St, Cluj-Napoca, CJ 400383, Romania</span>
-          <div>
-            <span class='dark'>contact@craftingsoftware.com</span>
-            <a href="tel:+40745 617 142" class='dark'>+40745 617 142</a>
-          </div>
-        </div>
-        <div class='social'>
-          <img src="<%= static_path(@conn, "/images/craftingLogoColor.svg") %>">
-          <div class='social-icons'>
-            <a target="_blank" href="https://www.facebook.com/craftingsoftware/"> <img class='icon' src="<%= static_path(@conn, "/images/facebookDark.svg") %>"> </a>
-            <a target="_blank" href="https://www.linkedin.com/in/crafting-software-a69694153/"> <img class='icon' src="<%= static_path(@conn, "/images/linkedinDark.svg") %>"> </a>
-          </div>
-        </div>
-        <div class='navItemsDesktop'>
-          <div class='navItemDesktop'>
-            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
-            <a href="/" data-pjax>About</a>
-          </div>
-          <div class='navItemDesktop'>
-            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
-            <a href="/team" data-pjax>Team</a>
-          </div>
-          <div class='navItemDesktop'>
-            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
-            <a href="/career" data-pjax>Career</a>
-          </div>
-           <div class='navItemDesktop'>
-            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
-            <a href="/blog" data-pjax>Blog</a>
-          </div>
-          <div class='navItemDesktop'>
-            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
-            <a href="/contact" data-pjax>Contact</a>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class='copyright'>
-        <span>© 2018 Crafting Software. All rights reserved.</span>
-      </div>
-    </div>
+       <img src="<%= static_path(@conn, "/img/header_1366px.png") %>" class="proccess-content-img" id="navImg">    
+         
   </body>
   
   </body>
