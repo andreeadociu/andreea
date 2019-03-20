@@ -5,6 +5,31 @@ subtitle: This is where I will tell my friends way too much about me
 use-site-title: true
 ---
 
+
+    <div class="navBar" id="navBar">
+      <img class="navImg" src="<%= static_path(@conn, "/images/header_1366px.svg") %>" id="navImg">
+      <a href="<%=page_path(@conn, :index)%>"> <img class="navLogo" src="<%= static_path(@conn, "/images/logoCS.svg") %>" id="navLogo"> </a>
+      <div class="navItems" id="navItems">
+        <a href="/" data-pjax id="navItem1" onClick="App.highlightNavigationItems(href)">About</a>
+        <a href="/team" data-pjax id="navItem2" onClick="App.highlightNavigationItems(href)">Team</a>
+        <a href="/career" data-pjax id="navItem3" onClick="App.highlightNavigationItems(href)">Career</a>
+        <a href="/blog" data-pjax id="navItem5" onClick="App.highlightNavigationItems(href)">Blog</a>
+        <a href="/contact" data-pjax id="navItem4" onClick="App.highlightNavigationItems(href)">Contact</a>
+      </div>
+      <div class="navMobileMenu" onclick="App.openNavMobileItems()" id="navMobileMenu">
+         <img class='icon' id="navMobileMenuImg" src="<%= static_path(@conn, "/images/menuIcon.svg") %>" style="margin: 0 auto 0 auto">
+      </div>
+
+      <div style="z-index:-1; visibility: hidden;" id="navMobileItems" onclick="App.openNavMobileItems()">
+        <a href="/" data-pjax id="navItemMob1" onClick="App.highlightNavigationItems(href)">About</a>
+        <a href="/team" data-pjax id="navItemMob2" onClick="App.highlightNavigationItems(href)">Team</a>
+        <a href="/career" data-pjax id="navItemMob3" onClick="App.highlightNavigationItems(href)">Career</a>
+        <a href="/blog" data-pjax id="navItemMob5" onClick="App.highlightNavigationItems(href)">Blog</a>
+        <a href="/contact" data-pjax id="navItemMob4" onClick="App.highlightNavigationItems(href)">Contact</a>
+      </div>
+    </div>
+
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
