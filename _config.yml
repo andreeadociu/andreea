@@ -56,8 +56,8 @@ footer-link-col: "#404040"
 # instead of colour
 
  #navbar-img: "/img/header_1366px.png"
- footer-img: "/img/bgimage.png"
- page-img: "/img/bgimage.png"
+ # footer-img: "/img/bgimage.png"
+  #page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
