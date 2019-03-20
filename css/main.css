@@ -47,6 +47,12 @@ hr.small {
   border-radius: 3px;
 }
 
+.headerBackground{
+   padding: 1em;
+   background: #ffffff url("../img/header_1366px.svg") no-repeat center center;
+   background-size: cover;
+}
+
 .main-content {
   padding-top: 80px;
 }
