@@ -16,17 +16,17 @@ common-js:
 
 <!DOCTYPE html>
 <html lang="en">
-  
-  
-    <head>
-
-  </head>
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  {% include head.html %}
 
   <body>
-    
-    
+
+    {% include gtm_body.html %}
   
-  </body>
-  
+    {% include nav.html %}
+
+    {{ content }}
+
+    <script type="text/javascript" src="../js/iframeResizer.contentWindow.min.js"></script>
   </body>
 </html>
