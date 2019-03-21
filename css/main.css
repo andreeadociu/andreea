@@ -114,7 +114,57 @@ img {
   margin-top: 30px;
 }
 
+.navImg {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+} 
 
+@media only screen and (min-width: 1680px){
+  .navImg{
+    top: -1.6vw;
+    transform: scale(1, 0.8);
+    -ms-transform: scale(1, 0.8);
+    -moz-transform: scale(1, 0.8);
+    -webkit-transform: scale(1, 0.8);
+  }
+
+@media only screen and (min-width: 3000px){
+  .navImg{
+    top: -3vw;
+    transform: scale(1, 0.6);
+    -ms-transform: scale(1, 0.6);
+    -moz-transform: scale(1, 0.6);
+    -webkit-transform: scale(1, 0.6);
+  }
+}
+
+
+@media only screen and (min-width: 3600px){
+  .navImg{
+    top: -4vw;
+  }
+}
+
+@media only screen and (max-width: 1360px){
+  .navImg{
+    content: url("/images/header_1366px.svg");
+  }
+}
+
+@media only screen and (min-width: 1360px){
+  .navImg{
+    content: url("/images/header_1920px.svg");
+  }
+}
+
+
+@media only screen and (max-height: 480px) and (orientation: landscape){
+  .navImg { 
+    content: url("/images/header_1366px.svg");
+  }
 
 .navLogo {
   position: absolute;
