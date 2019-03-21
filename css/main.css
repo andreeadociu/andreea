@@ -58,6 +58,12 @@ hr.small {
    flex: 1;
 }
 
+.right-navbar{
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
 .main-content {
   padding-top: 80px;
 }
