@@ -113,7 +113,7 @@ img {
 
 /* --- Navbar --- */
 
-.collapse {
+.nav {
   position: fixed;
   width: 100%;
   top: 0; 
@@ -121,7 +121,41 @@ img {
 }
 
 @media only screen and (max-width: 840px){
-  .collapse{
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    right: 0;
+    min-width: 0px;
+  }
+  
+  .navbar-nav {
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 1;
+}
+
+@media only screen and (max-width: 840px){
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    right: 0;
+    min-width: 0px;
+  }
+  
+  .navbar-right {
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 1;
+}
+
+@media only screen and (max-width: 840px){
+  .navbar-right{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
