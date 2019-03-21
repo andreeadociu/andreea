@@ -9,13 +9,7 @@
     		<img class="navImg" src="/img/logoCS.svg"; style = top:25px;left:225px;width:12em; height:18em; class="thumbnails" id="navLogo" /> 
 	   </a>
 	    
-	     <div id="nav_bar">
-	        <a hclass="nav-item nav-link" href="https://craftingsoftware.com/">About</a>
-      		<a hclass="nav-item nav-link" href="https://craftingsoftware.com/team">Team</a>
-                <a hclass="nav-item nav-link" href="https://craftingsoftware.com/career">Career</a>
-                <a hclass="nav-item nav-link" href="https://andreeadociu.github.io/">Blog</a>
-                <a  hclass="nav-item nav-link" href="https://craftingsoftware.com/contact">Contact</a>
-	       </div>
+	  
 
     </div>
 	    
@@ -34,16 +28,15 @@
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="right-navbar">
 	     
-	      
-	      
-	      
-	      
-	      
-	      
-	      
-	      
+	      <div id="nav_bar">
+	        <a hclass="nav-item nav-link" href="https://craftingsoftware.com/">About</a>
+      		<a hclass="nav-item nav-link" href="https://craftingsoftware.com/team">Team</a>
+                <a hclass="nav-item nav-link" href="https://craftingsoftware.com/career">Career</a>
+                <a hclass="nav-item nav-link" href="https://andreeadociu.github.io/">Blog</a>
+                <a  hclass="nav-item nav-link" href="https://craftingsoftware.com/contact">Contact</a>
+	      </div>
 	      
 	{% for link in site.navbar-links %}
         {% if link[1].first %}
