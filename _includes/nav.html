@@ -17,22 +17,18 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+	      
+	        <a hclass="nav-item nav-link" href="https://craftingsoftware.com/about">About</a>
+      		<a hclass="nav-item nav-link" href="https://craftingsoftware.com/team">Team</a>
+                <a hclass="nav-item nav-link" href="https://craftingsoftware.com/career">Career</a>
+                <a hclass="nav-item nav-link" href="https://andreeadociu.github.io/">Blog</a>
+                <a  hclass="nav-item nav-link" href="https://craftingsoftware.com/contact">Contact</a>
+	      
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-		  
-      		
-      		<div class="navItems" id="navItems">
-			
-      		<a href="https://craftingsoftware.com/about">About</a>
-      		<a href="https://craftingsoftware.com/team">Team</a>
-                <a href="https://craftingsoftware.com/career">Career</a>
-                <a href="https://andreeadociu.github.io/">Blog</a>
-                <a href="https://craftingsoftware.com/contact">Contact</a>
-		
-		  </div>
-		  
+			  
             <div class="navlinks-children">
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
