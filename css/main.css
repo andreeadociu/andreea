@@ -53,6 +53,12 @@ hr.small {
    background-size: cover;
 }
 
+
+.rightSide {
+   flex: 1;
+;
+}
+
 .main-content {
   padding-top: 80px;
 }
