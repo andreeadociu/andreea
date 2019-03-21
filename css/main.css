@@ -73,6 +73,10 @@ hr.small {
   display: none;
 }
 
+.nav_bar{
+ color:green; 
+}
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
