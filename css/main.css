@@ -58,11 +58,11 @@ hr.small {
    flex: 1;
 }
 
-.right-navbar li a{           
+.right-navbar{           
   position: absolute;
   top: 60px;
   right: 20px;
-  color: white;
+  color: #ffffff;
   justify-content: space-between;
 }
 
