@@ -113,6 +113,45 @@ img {
 
 /* --- Navbar --- */
 
+.collapse {
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 1;
+}
+
+@media only screen and (max-width: 840px){
+  .collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    right: 0;
+    min-width: 0px;
+  }
+  
+  
+  .navbar-collapse {
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  z-index: 1;
+}
+
+@media only screen and (max-width: 840px){
+  .cnavbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    right: 0;
+    min-width: 0px;
+  }
+  
+  
+  
+  
+
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
