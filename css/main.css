@@ -114,6 +114,45 @@ img {
   margin-top: 30px;
 }
 
+
+
+.navLogo {
+  position: absolute;
+  z-index: 2;
+  width: 13em;
+  top: 1.125em;
+  left: 3em;
+}
+
+
+@media only screen and (min-width: 2680px){
+  .navLogo{
+    top: 2em;
+  }
+}
+
+  .navLogo {
+    left: 15vw;
+  }
+
+
+  .navLogo{
+    position: absolute;
+    top: 1em;
+    left: 3vw;
+    height: 9vw;
+    width: 35vw;
+  }
+
+
+  .navLogo {
+    position: absolute;
+    top: 0.8em;
+    left: 3vw;
+    height: 5.5vw;
+    width: 25vw;
+  }
+
 @media only screen and (min-width: 768px) {
   .disqus-comments {
     margin-top: 40px;
