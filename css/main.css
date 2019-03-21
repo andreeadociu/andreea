@@ -16,7 +16,7 @@ body {
   background-image: url({{ site.page-img }});
   background-attachment: fixed;
   {% endif %}
-}
+} 
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -58,11 +58,12 @@ hr.small {
    flex: 1;
 }
 
-.right-navbar{
+.right-navbar li a{           
   position: absolute;
   top: 60px;
   right: 20px;
   color: white;
+  justify-content: space-between;
 }
 
 .main-content {
@@ -127,6 +128,7 @@ img {
   right: 0;
   top: 0;
   width: 100%;
+
 } 
 
 @media only screen and (min-width: 1680px){
