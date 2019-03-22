@@ -54,7 +54,7 @@ hr.small {
 
 
 .all_pages {
-   display: flex;
+   flex: 1;
 }
 
 .right-navbar{           
