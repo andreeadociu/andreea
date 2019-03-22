@@ -11,6 +11,23 @@ layout: null
   margin: 0;
 }
 
+#nav_bar a{
+  text-decoration: none;
+}
+
+#nav_bar a:link {
+ color: white !important;
+}
+
+#nav_bar a:hover {
+ color: white !important;
+}
+
+#nav_bar a:active {
+ color: white !important;
+}
+
+
 .navBar {
   position: fixed;
   width: 100%;
