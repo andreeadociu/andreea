@@ -53,11 +53,6 @@ hr.small {
    background-size: cover;
 }
 
-
-.rightSide {
-   flex: 1;
-}
-
 .right-navbar{           
   position: absolute;
   top: 60px;
@@ -84,6 +79,16 @@ hr.small {
 
 .hideme {
   display: none;
+}
+
+.topBlog {
+    height: 15em;
+    width: '100%';
+    background-color: aquamarine;
+}
+
+.rightSide {
+   flex: 1 !important;
 }
 
 #nav_bar a{
