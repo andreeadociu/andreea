@@ -133,13 +133,13 @@ layout: null
 
 @media only screen and (max-width: 1360px){
   .navImg{
-    content: url("/images/header_1366px.svg");
+    content: url("/img/header_1366px.svg");
   }
 }
 
 @media only screen and (min-width: 1360px){
   .navImg{
-    content: url("/images/header_1920px.svg");
+    content: url("/img/header_1920px.svg");
   }
 }
 
@@ -160,7 +160,7 @@ layout: null
   }
 
   .navImg{ 
-    content: url("/images/littleHeader.svg");
+    content: url("/img/littleHeader.svg");
   }
 
   .navLogo{
@@ -257,7 +257,7 @@ layout: null
 
 @media only screen and (max-height: 480px) and (orientation: landscape){
   .navImg { 
-    content: url("/images/header_1366px.svg");
+    content: url("/img/header_1366px.svg");
   }
 
   .navLogo {
