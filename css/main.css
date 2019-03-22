@@ -5,10 +5,6 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- General --- */
-#container_main {
-  display: flex;  
-}
-
 articles {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
@@ -57,8 +53,8 @@ hr.small {
 }
 
 
-.rightSide {
-   flex: 1;
+.all_pages {
+   display: flex;
 }
 
 .right-navbar{           
