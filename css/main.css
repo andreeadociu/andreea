@@ -81,12 +81,6 @@ hr.small {
   display: none;
 }
 
-.topBlog {
-    height: 15em;
-    width: '100%';
-    background-color: aquamarine;
-}
-
 .rightSide {
    flex: 1 !important;
 }
