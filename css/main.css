@@ -5,6 +5,9 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- General --- */
+#container_main {
+  display: flex;  
+}
 
 articles {
   font-family: 'Lora', 'Times New Roman', serif;
