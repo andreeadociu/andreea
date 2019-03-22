@@ -12,6 +12,7 @@ layout: null
 }
 
 #nav_bar a{
+  position: absolute;
   text-decoration: none;
 }
 
