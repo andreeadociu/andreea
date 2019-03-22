@@ -27,10 +27,6 @@ layout: null
  color: white !important;
 }
 
-nav-item nav-link{
-  position: aboslute;  
-}
-
 .navBar {
   position: fixed;
   width: 100%;
