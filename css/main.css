@@ -87,7 +87,7 @@ hr.small {
 }
 
 .nav_bar{
- color:green; 
+  text-decoration: none
 }
 
 ::-moz-selection {
