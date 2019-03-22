@@ -87,7 +87,20 @@ hr.small {
 }
 
 #nav_bar a{
-  text-decoration: none
+  text-decoration: none;
+  
+}
+
+#nav_bar a:link {
+ color: red;
+}
+
+#nav_bar a:hover {
+ color: blue;
+}
+
+#nav_bar a:active {
+ color: green;
 }
 
 ::-moz-selection {
