@@ -513,6 +513,79 @@ footer .theme-by {
     font-size: 16px;
   }
 }
+    
+    
+.address {
+  display:  flex;
+  flex-direction: column;
+  margin: 3.5em 0 1.5em 0;
+}
+
+.address > span {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 2em;
+  box-sizing: border-box;
+  padding: 0 3em;
+  color: gray;
+}
+
+.address > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.address > div > span.dark {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+.address > div > a.dark {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2em;
+  color: black;
+}
+
+
+ .address{
+    width: 70em;
+    align-items: flex-end;
+    margin: auto 5.625em 2.5em 0;
+  }
+
+  .address > span{ 
+    margin-bottom: 1em;
+    padding: 0;
+    text-align: right;
+    width: 19em;
+  }
+
+  .address > div{
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+}
+
+
+@media only screen and (max-width: 520px){
+  .address > span {
+    font-size: 0.75rem;
+  }
+
+  .address > div > span.dark{ 
+    font-size: 0.75rem;
+  }
+
+  .address > div > a.dark{ 
+    font-size: 0.75rem;
+  }    
+    
+    
 
 /* --- Post preview --- */
 
