@@ -19,6 +19,7 @@ layout: base
           {% include staticman-comments.html %}
         </div>
 	    {% endif %}
+	    </div>
       </div>
 
 	  
@@ -30,7 +31,7 @@ layout: base
       </div>
 	    
 	
-   <div class='footer'>
+    <div class='footer'>
       <div style="background-color: rgba(0,0,0, .03)" >
       <div class='footerContent' id='footerContent'>
         <div class='address'>
@@ -41,32 +42,32 @@ layout: base
           </div>
         </div>
         <div class='social'>
-          <img src="/img/craftingLogoColor.svg">
+          <img src="<%= static_path(@conn, "/images/craftingLogoColor.svg") %>">
           <div class='social-icons'>
-            <a target="_blank" href="https://www.facebook.com/craftingsoftware/"> <img class='icon' src = "/img/facebookDark.svg"> </a>
-            <a target="_blank" href="https://www.linkedin.com/in/crafting-software-a69694153/"> <img class='icon' src = "/img/linkedinDark.svg"> </a>
+            <a target="_blank" href="https://www.facebook.com/craftingsoftware/"> <img class='icon' src="<%= static_path(@conn, "/images/facebookDark.svg") %>"> </a>
+            <a target="_blank" href="https://www.linkedin.com/in/crafting-software-a69694153/"> <img class='icon' src="<%= static_path(@conn, "/images/linkedinDark.svg") %>"> </a>
           </div>
         </div>
         <div class='navItemsDesktop'>
           <div class='navItemDesktop'>
-            <img class="navIcon" src="/img/right-arrow.svg" id="navIcon"/>
-            <a href="https://craftingsoftware.com/ data-pjax">About</a>
+            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
+            <a href="/" data-pjax>About</a>
           </div>
           <div class='navItemDesktop'>
-            <img class="navIcon" src="/img/right-arrow.svg" id="navIcon"/>
-          <a href="https://craftingsoftware.com/team data-pjax">Team</a>
+            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
+            <a href="/team" data-pjax>Team</a>
           </div>
           <div class='navItemDesktop'>
-            <img class="navIcon" src="/img/right-arrow.svg" id="navIcon"/>
-            <a href="https://craftingsoftware.com/career data-pjax">Career</a>
+            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
+            <a href="/career" data-pjax>Career</a>
           </div>
            <div class='navItemDesktop'>
-             <img class="navIcon" src="/img/right-arrow.svg" id="navIcon"/>
-             <a href="https://andreeadociu.github.io/ data-pjax">Blog</a>
+            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
+            <a href="/blog" data-pjax>Blog</a>
           </div>
           <div class='navItemDesktop'>
-            <img class="navIcon" src="/img/right-arrow.svg" id="navIcon"/>
-            <a href="https://craftingsoftware.com/contact data-pjax">Contact</a>
+            <img class='navIcon' src="<%= static_path(@conn, "/images/right-arrow.svg") %>">
+            <a href="/contact" data-pjax>Contact</a>
           </div>
         </div>
       </div>
@@ -75,7 +76,6 @@ layout: base
         <span>© 2018 Crafting Software. All rights reserved.</span>
       </div>
     </div>
-</div> 
       
       
 	  
