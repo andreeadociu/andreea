@@ -178,7 +178,45 @@ hr.small {
 }
   
 
+/* --- NavItemsDesktop ---  */
+navItemsDesktop{
+  display: none;
+}
 
+@media only screen and (min-width: 840px){
+  .footerContent {
+    flex-direction: row-reverse;
+    height: 14em;
+    max-width: 110em;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+
+  .navItemsDesktop {
+    display: flex;
+    flex-direction: column;
+    margin: auto 5em 2.5em 5em;
+  }
+
+  .navItemDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navItemDesktop > a {
+    font-family: Roboto;
+    font-size: 0.8125rem;
+    line-height: 2.30769em;
+    opacity: 0.54;
+    color: black;
+  }
+
+  .navIcon{
+    margin-right: 0.75em;
+  }
+  
+  
 
 .all_pages {
    display: flex;
