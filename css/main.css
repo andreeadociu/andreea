@@ -396,7 +396,30 @@ img {
 }
 
 /* --- Footer Site --- */
-  
+  .footer-class{
+  width: 100%;
+  font-family: Permanent Marker;
+  line-height: 1em;
+  font-size: 3.125rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 1em 0.75em 0 0;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.footer-class {
+  width: 100%;
+  font-family: Permanent Marker;
+  font-size: 12rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0 0.1em 0 0;
+  margin: 0;
+  color: #FFFFFF;
+  opacity: 0.15;
+}
+
 
     
 
