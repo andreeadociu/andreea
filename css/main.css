@@ -55,7 +55,7 @@ hr.small {
 /* Address   */
 
 .address {
-  display:  flex;
+  display:  flex !important;
   flex-direction: column;
   margin: 3.5em 0 1.5em 0;
 }
@@ -125,7 +125,60 @@ hr.small {
   }
 }
   
+
+/* --- COPYRIGHT ---*/
+
+.copyright {
+  display: flex;
+  height: 3em;
+  align-items: center;
+  background-color: rgba(0,0,0, .87);
+}
+
+.copyright > span {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 0.6875em;
+  color: #FFFFFF;
+  margin: 0 0 0 8em;
+  opacity: 0.54;
+}
+
+@media only screen and (max-width: 520px){
+  .address > span {
+    font-size: 0.75rem;
+  }
+
+  .address > div > span.dark{ 
+    font-size: 0.75rem;
+  }
+
+  .address > div > a.dark{ 
+    font-size: 0.75rem;
+  }
+
+  .social {
+    padding: 0 1.5em 2em 1.5em;
+  }
+
+  .social > img {
+    width: 12em;
+  }
+
+  .social-icons >img.icon {
+    width: 1.25em;
+    height: 1.25em;
+  }
+
+  .copyright > span {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+}
   
+
+
 
 .all_pages {
    display: flex;
