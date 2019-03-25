@@ -55,6 +55,7 @@ hr.small {
 
 .all_pages {
    display: flex;
+   top: 100px;
 }
 
 #nav_bar a:link {
