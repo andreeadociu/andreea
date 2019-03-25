@@ -396,7 +396,82 @@ img {
 }
 
 /* --- Footer Site --- */
- footer {
+ .phase-footer {
+  width: 100%;
+  font-family: Permanent Marker;
+  line-height: 1em;
+  font-size: 3.125rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 1em 0.75em 0 0;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.phase-footer2 {
+  width: 100%;
+  font-family: Permanent Marker;
+  font-size: 12rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 0 0.1em 0 0;
+  margin: 0;
+  color: #FFFFFF;
+  opacity: 0.15;
+}
+
+@media screen and (max-width: 1050px) {
+  .description1 > p, 
+  .description2 > p, 
+  .description3 > p{
+    font-size: 0.875rem;
+    margin: 3em 3.4em 0 3.4em;
+  }
+
+  div.description1 p:last-child {
+    margin: 1.25em 3.4em 3em 3.4em;
+  }
+
+  div.description2 p:last-child, div.description3 p:last-child {
+    margin: 1.25em 3.4em auto 3.4em;
+  }
+
+  .phase-footer2 {
+    font-size: 10em;
+  }
+}
+
+
+  .phase-footer {
+    display: none;
+  }
+
+  .phase-footer2 {
+    display: none;
+  }
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0, .03);
+}
+
+
+
+.footerContent {
+    flex-direction: row-reverse;
+    height: 14em;
+    max-width: 110em;
+    margin: 0 auto;
+    background-color: transparent;
+  } 
+
+
+
+/* --- Footer Orig --- */
+
+footer {
   padding: 30px 0;
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
@@ -441,9 +516,6 @@ footer .theme-by {
     font-size: 16px;
   }
 }
-
-
-    
 
 /* --- Post preview --- */
 
