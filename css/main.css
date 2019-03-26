@@ -52,6 +52,21 @@ hr.small {
    background-size: cover;
 }
 
+.navItems a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 3em;
+    width: 3.333333333em;
+    max-width: 3.333333333em;
+    color: #fff;
+    text-align: center;
+    margin: 0 .6em;
+    opacity: .7;
+    text-decoration: none;
+}
+
+
 /* Address   */
 
 .address {
