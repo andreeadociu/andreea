@@ -67,6 +67,7 @@ hr.small {
 }
 
 
+
 /* Address   */
 
 .address {
@@ -206,6 +207,13 @@ hr.small {
     opacity: 0.54;
     color: black;
   }
+
+.navItemDesktop {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: -2em;
+}
 
   
   
