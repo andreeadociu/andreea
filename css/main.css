@@ -88,6 +88,9 @@ hr.small {
 .address > div {
   display: flex;
   justify-content: space-around;
+  margin-right: -26.5em;
+  margin-top: 0.8em;
+  margin-bottom: -29em;
 }
 
 .address > div > span.dark {
@@ -113,7 +116,7 @@ hr.small {
   }
 
   .address > span{ 
-    margin-bottom: 1em;
+    margin-right: -42em;
     padding: 0;
     text-align: right;
     width: 19em;
