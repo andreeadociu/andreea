@@ -537,6 +537,11 @@ img {
   padding-left: max(15px, env(safe-area-inset-left));
   padding-right: max(15px, env(safe-area-inset-right));
 }
+  
+ .container{
+   margin-top: 17.5em;
+   margin-bottom: 17.5em;
+  }
 
 /* Multi-level navigation links */
 .navbar-custom .nav .navlinks-container {
