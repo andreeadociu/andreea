@@ -84,14 +84,13 @@ hr.small {
   box-sizing: border-box;
   padding: 0 3em;
   color: gray;
+  margin-top: -15em;
 }
 
 .address > div {
   display: flex;
   justify-content: space-around;
-  margin-right: -26.5em;
   margin-top: 0.8em;
-  margin-bottom: -29em;
 }
 
 .address > div > span.dark {
