@@ -398,11 +398,17 @@ img {
   .navImg{
     content: url("/img/header_1366px.svg");
   }
+ .all_pages{
+    background-color: green;
+ }
 }
 
 @media only screen and (min-width: 1360px){
   .navImg{
     content: url("/img/header_1920px.svg");
+  }
+ .all_pages{
+	 background-color: coral;
   }
 }
 
