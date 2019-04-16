@@ -401,9 +401,7 @@ img {
  .all_pages{
     background-color: green;
  }
- #navLogoImg{
-    content: url("/img/logoCS.svg");  
- }
+
 }
 
 @media only screen and (min-width: 1360px){
