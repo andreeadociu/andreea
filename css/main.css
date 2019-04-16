@@ -300,6 +300,12 @@ hr.small {
 .main-content {
   padding-top: 80px;
 }
+@media only screen and (min-width: 1700px) {
+  navbar-header{ 
+      background: orange;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-left: env(safe-area-inset-left);
