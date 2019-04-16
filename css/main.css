@@ -300,15 +300,6 @@ hr.small {
 .main-content {
   padding-top: 80px;
 }
-@media only screen and (min-width: 1700px) {
-  navbar-header{ 
-      background-color: orange;
-  }
-	
- all-pages{
-     background-color: red;
- }
-}
 
 @media only screen and (min-width: 768px) {
   .main-content {
@@ -380,7 +371,11 @@ img {
     -moz-transform: scale(1, 0.8);
     -webkit-transform: scale(1, 0.8);
   }
-
+  .all-pages{
+	background-color: green;  
+  }
+}
+	
 @media only screen and (min-width: 3000px){
   .navImg{
     top: -3vw;
