@@ -302,8 +302,12 @@ hr.small {
 }
 @media only screen and (min-width: 1700px) {
   navbar-header{ 
-      background: orange;
+      background-color: orange;
   }
+	
+ all-pages{
+     background-color: red;
+ }
 }
 
 @media only screen and (min-width: 768px) {
