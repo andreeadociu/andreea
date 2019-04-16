@@ -301,6 +301,20 @@ hr.small {
   padding-top: 80px;
 }
 
+
+@media only screen and (min-width: 200px){
+  .navImg{
+    top: -1.6vw;
+    transform: scale(1, 0.8);
+    -ms-transform: scale(1, 0.8);
+    -moz-transform: scale(1, 0.8);
+    -webkit-transform: scale(1, 0.8);
+  }
+  .all-pages{
+	background-color: green;  
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-left: env(safe-area-inset-left);
@@ -362,19 +376,6 @@ img {
   width: 100%;
 
 } 
-
-@media only screen and (min-width: 1680px){
-  .navImg{
-    top: -1.6vw;
-    transform: scale(1, 0.8);
-    -ms-transform: scale(1, 0.8);
-    -moz-transform: scale(1, 0.8);
-    -webkit-transform: scale(1, 0.8);
-  }
-  .all-pages{
-	background-color: green;  
-  }
-}
 	
 @media only screen and (min-width: 3000px){
   .navImg{
