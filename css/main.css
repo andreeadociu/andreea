@@ -402,10 +402,6 @@ img {
     content: url("/img/logoCS.svg");	  
     z-index:100;
  }
- .all_pages{
-    background-color: green;
- } 
-
 }
 
 @media only screen and (min-width: 1360px){
@@ -417,9 +413,6 @@ img {
     content: url("/img/logoCS.svg");	  
     z-index:100;
  }	
- .all_pages{
-	 background-color: coral;
-  }
 }
 
 
