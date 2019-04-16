@@ -405,7 +405,8 @@ img {
 
 @media only screen and (min-width: 1360px){
   .navImg{
-    content: url("/img/header_1920px.svg");
+   /* content: url("/img/header_1920px.svg");*/
+      content: url("/img/header_1366px.svg");
   }
  .all_pages{
 	 background-color: coral;
